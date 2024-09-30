@@ -10,10 +10,11 @@ makepkg -si
 sudo pacman -S alacritty krita obs-studio neovim wireshark-qt
 sudo pacman -S keepassxc
 # Fonts
-sudo pacman -S ttf-fira-code noto-fonts-cjk # for alacritty toml
+sudo pacman -S ttf-fira-code noto-fonts-cjk # for alacritty toml and for gen fonts
 sudo pacman -S fastfetch flatpak
 sudo pacman -S libreoffice texlive #Latex and Libreoffice add the extension
 
+yay -S ttf-ms-win11-auto #times new roman for essays
 yay -S librewolf-bin visual-studio-code-bin
 yay -S vmware-workstation
 
@@ -53,7 +54,7 @@ cd ~/.emacs.d
 
 #Config files
 DWM Rice : https://github.com/ClemTheAlien/ClemTheAliens-DWM-Rice
-
+	#follow instructions in the documentation of the github 
 Alacritty Rice: https://github.com/ClemTheAlien/Clems-Alacritty-Ric
 	git clone https://github.com/ClemTheAlien/Clems-Alacritty-Rice .config/alacritty
 
