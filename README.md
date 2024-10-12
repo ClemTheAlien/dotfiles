@@ -7,6 +7,8 @@ These are made with an Arch Linux distro in mind. Enjoy the custom configs for:
 - Emacs
 - Alacritty
 - DWM
+>[!Warning]
+>UNDER CONSTRUCTION NOT COMPLETE OR GOOD IN ANY WAY SHAPE OR FORM YET
 # Screenshots
 # Setup 
 Download all of the files and add "." to the front and your set. For the config directory just move all the directories within the config file to your actual config folder and your set :)
