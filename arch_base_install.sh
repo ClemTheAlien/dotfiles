@@ -7,7 +7,7 @@ cd yay
 makepkg -si
 
 #install terminal among other basic apps
-sudo pacman -S alacritty krita obs-studio neovim wireshark-qt keepassxc fastfetch
+sudo pacman -S krita obs-studio neovim wireshark-qt keepassxc fastfetch
 # Fonts
 sudo pacman -S ttf-fira-code noto-fonts-cjk 
 yay -S ttf-ms-win11-auto # times new roman for essays, cjk for Mandarin Chinese Japanese and Korean fonts, and fira code for rice
@@ -38,3 +38,4 @@ flatpak install flathub com.github.huluti.Curtail #Curtail
 flatpak install flathub org.kicad.KiCad #KiCAD
 flatpak install flathub fr.romainvigier.MetadataCleaner #Metadata Remover
 flatpak install flathub com.github.reds.LogisimEvolution #Logisim
+flatpak install flathub dev.vencord.Vesktop #Discord Client
